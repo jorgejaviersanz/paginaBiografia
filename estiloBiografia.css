@@ -1,8 +1,16 @@
+.linkTitulo {
+  text-decoration: none;
+}
+
 #indexBackground {
   background-color: #f7b90e;
 }
 
-
+#headingTrabajos {
+  color: #000000;
+  padding-top: 20px;
+  margin-bottom: -50px;
+}
 
 .iconos {
   padding: 15px;
@@ -32,6 +40,7 @@ footer {
 H1 {
   color: white;
   margin-top: 0%;
+  font-family: 'Bowlby One SC'
 }
 
 
@@ -49,7 +58,7 @@ H1 {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   
 }
 
@@ -58,6 +67,9 @@ H1 {
   color: white;
 }
 
+h3 {
+  text-align: center;
+}
 
 .navBackgroundColor {
   background-color: #ffffff;
@@ -147,8 +159,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  
 }
 
 .sectionIndex{
@@ -159,6 +171,7 @@ p {
 
 h2 {
   padding: 60px;
+  text-align: center;
 }
 
 /* De 361 a 960 */
