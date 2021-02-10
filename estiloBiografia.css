@@ -1,5 +1,20 @@
+#indexBackground {
+  background-color: #f7b90e;
+}
+
+
+
+.iconos {
+  padding: 15px;
+}
+
+.agrandarIconos {
+  transition: 0.5s;
+  transform:scale(1.01);
+}
+
 header{
-  background-color:#EBA519;
+  background-color:#f7b90e;
   display: flex;
   flex-direction: column;
 }
@@ -19,6 +34,8 @@ H1 {
   margin-top: 0%;
 }
 
+
+
 .buttonContact {
   background-color: white;
   border: solid;
@@ -32,6 +49,7 @@ H1 {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  margin-bottom: 40px;
   
 }
 
@@ -64,6 +82,22 @@ nav.mainMenu a:hover {
   color: #EBA519;
 }
 
+nav.mainMenu a.contactoNav {
+  background-color: black;
+  color:  white;
+}
+
+nav.mainMenu a.trabajosNav {
+  background-color: black;
+  color:  white;
+}
+
+nav.mainMenu a.bioNav {
+  background-color: black;
+  color:  white;
+}
+
+
 h1 {
   display: flex;
   justify-content: center;
@@ -82,18 +116,25 @@ textarea {
 }
 input[type=submit]{
   width: 25%;
-  background-color: #EBA519;
+  background-color: #f7b90e;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
 }
 
 input[type=submit]:hover {
-  background-color:  #d18d05;
+  background-color:  #f7b90e;
 }
+
+p {
+  padding: 30px;
+  text-align: center;
+}
+
 
 /* ------------ 360 o menos ------------ */
 .wrapper {
@@ -105,10 +146,20 @@ input[type=submit]:hover {
 .articlesContainer {
   display: flex;
   flex-direction: column;
-  
-  
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+.sectionIndex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  padding: 60px;
+}
 
 /* De 361 a 960 */
 @media screen and (min-width: 361px) {
@@ -118,6 +169,7 @@ input[type=submit]:hover {
 
   .sectionsContainer {
     flex-direction: row;
+    justify-content: center;
   }
 
   section {
@@ -130,9 +182,11 @@ input[type=submit]:hover {
 @media screen and (min-width: 961px) {
   .wrapper {
     width: 960px;
+    margin: 0 auto;
   }
 
   .articlesContainer {
     flex-direction: row;
+    justify-content: center;
   }
 }
